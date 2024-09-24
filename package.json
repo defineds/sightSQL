@@ -1,0 +1,21 @@
+{
+  "name": "sightSQL",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "private": "true",
+  "license": "ISC",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "sst dev"
+  },
+  "dependencies": {
+    "sst": "3.1.36"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "8.10.145"
+  }
+}
